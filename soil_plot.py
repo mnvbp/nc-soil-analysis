@@ -9,7 +9,7 @@ data = '/Users/manavparikh/Desktop/output/data_edit2.csv'
 CATEGORY = 'HMA RESULT'
 
 
-
+#plot using matplotlib
 def plt_continuous(category: str, data: str) -> None:
     data = pd.read_csv(data, delimiter=",", header=0)
     df = data[f'{category}']
